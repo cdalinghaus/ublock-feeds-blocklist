@@ -1,0 +1,5 @@
+www.youtube.com##:matches-path(/^/$/).ytd-browse.style-scope
+
+www.reddit.com##:matches-path(/^/$/).main-container
+
+www.linkedin.com##.scaffold-finite-scroll__content
