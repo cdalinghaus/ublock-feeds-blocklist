@@ -1,8 +1,8 @@
-! YouTube homepage
-youtube.com##:root:has(body:matches-path(/^\/$/)) ytd-browse.style-scope
+! YouTube homepage only (/)
+www.youtube.com##:matches-path(/^\/$/) ytd-browse.style-scope
 
-! Reddit homepage
-reddit.com##:root:has(body:matches-path(/^\/$/)) .main-container
+! Reddit homepage only (/)
+www.reddit.com##:matches-path(/^\/$/) .main-container
 
-! LinkedIn homepage
-linkedin.com##:root:has(body:matches-path(/^\/$/)) .scaffold-finite-scroll__content
+! LinkedIn homepage only (/feed or /feed/)
+www.linkedin.com##:matches-path(/^\/feed\/?$/) .scaffold-finite-scroll__content
