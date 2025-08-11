@@ -1,5 +1,8 @@
-www.youtube.com##ytd-browse.style-scope
+! YouTube homepage
+youtube.com##:root:has(body:matches-path(/^\/$/)) ytd-browse.style-scope
 
-www.reddit.com##.main-container
+! Reddit homepage
+reddit.com##:root:has(body:matches-path(/^\/$/)) .main-container
 
-www.linkedin.com##.scaffold-finite-scroll__content
+! LinkedIn homepage
+linkedin.com##:root:has(body:matches-path(/^\/$/)) .scaffold-finite-scroll__content
